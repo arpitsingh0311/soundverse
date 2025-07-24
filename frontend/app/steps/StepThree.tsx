@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import { useRef, useState } from "react";
 
 const StepThree = () => {
@@ -116,7 +117,7 @@ const StepThree = () => {
               <div className="flex flex-col items-center justify-start gap-4 pt-6">
                 <div className="w-40 h-40 bg-[#37373740] rounded-full flex items-center justify-center border border-zinc-700 relative z-4 overflow-hidden">
                   {preview ? (
-                    <img
+                    <Image
                       src={preview}
                       alt="Preview"
                       className="w-full h-full object-cover rounded-full"

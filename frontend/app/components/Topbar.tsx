@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import profile from "../assests/profile.jpg";
 const Topbar = () => {
   return (
@@ -8,7 +9,7 @@ const Topbar = () => {
 
       {/* Profile Icon Section */}
       <div className="flex justify-end items-center pr-4 pt-1 z-10 pt-15 lg:pt-0">
-        <img
+        <Image
           src={profile.src}
           className="w-10 h-10 rounded-full cursor-pointer"
           alt="Profile"

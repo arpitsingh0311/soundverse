@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useState } from "react";
 import soundverse from "../assests/soundverse.webp";
 import plus from "../assests/plus.png";
+import Image from "next/image";
 
 const navItems = [
   { icon: Home, label: "Home" },
@@ -19,7 +20,7 @@ const Sidebar = () => {
 
       {/* Hamburger Menu for Mobile */}
       <div className="sm:hidden flex justify-between items-center p-4 bg-black fixed top-0 left-0 right-0 z-50">
-        <img src={soundverse.src} alt="Soundverse" className="w-8" />
+        <Image src={soundverse.src} alt="Soundverse" className="w-8" />
         <Menu
           onClick={() => setIsOpen(!isOpen)}
           className="text-white"
@@ -31,7 +32,7 @@ const Sidebar = () => {
       <aside className="hidden sm:flex fixed sm:left-0 sm:top-0 sm:h-screen sm:w-16 sm:flex-col sm:space-y-8 bg-black p-6 items-center z-50">
         {/* Soundverse Logo */}
         <div className="relative group sm:self-center">
-          <img
+          <Image
             className="sm:w-10 w-8 lg:scale-150 sm:scale-150"
             src={soundverse.src}
             alt="Soundverse Logo"
@@ -39,7 +40,7 @@ const Sidebar = () => {
         </div>
 
         <div className="relative group sm:self-center">
-          <img
+          <Image
             className="text-white cursor-pointer hover:text-[#1db954] w-6 sm:w-8 lg:scale-150 sm:scale-150"
             src={plus.src}
             alt="Add Icon"

@@ -1,10 +1,10 @@
 "use client";
-import Link from "next/link";
 import StepFour from "../steps/StepFour";
 import StepOne from "../steps/StepOne";
 import StepThree from "../steps/StepThree";
 import StepTwo from "../steps/StepTwo";
 import profile from "../assests/profile.jpg";
+import Image from "next/image";
 
 export default function stepDNA() {
   return (
@@ -16,7 +16,7 @@ export default function stepDNA() {
           {/* Profile icon */}
           <div className="flex justify-end items-center z-10">
             <div className="relative group">
-              <img
+              <Image
                 className="w-10 h-10 rounded-full cursor-pointer"
                 alt="Profile"
                 src={profile.src}

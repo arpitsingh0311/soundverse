@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import { Howl } from "howler";
 import vector from "../assests/vector.svg";
+import Image from "next/image";
 
 const StepOne = () => {
   const [fileName, setFileName] = useState("");
@@ -49,7 +50,7 @@ const StepOne = () => {
           />
 
           <label htmlFor="audio-upload" className="cursor-pointer block">
-            <img
+            <Image
               className="opacity-30 h-16 sm:h-20 mx-auto pb-5 mt-6"
               src={vector.src}
               alt=""
