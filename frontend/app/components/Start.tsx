@@ -25,7 +25,7 @@ const Start = () => {
               Claim your profile
             </button>
             <button className="bg-[#383838] px-6 sm:px-10 py-3 sm:py-4 font-semibold rounded-full hover:bg-[#38383895] hover:scale-105 transition-all duration-500 ease-in-out">
-              This doesn't apply to me
+              This doesn&apos;t apply to me
             </button>
           </div>
         </div>
@@ -39,8 +39,8 @@ const Start = () => {
             that by default all DNAs remain private. <br />
             <span className="text-white">● Build with AI: </span>With this, AI
             will take care of captions, categorisations, tags. <br />
-            <span className="text-white">● Build Manually: </span>You’ll have to
-            manually add captions, categorisations and tags.
+            <span className="text-white">● Build Manually: </span>You&apos;ll
+            have to manually add captions, categorisations and tags.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 sm:gap-5 pt-8">
             <button

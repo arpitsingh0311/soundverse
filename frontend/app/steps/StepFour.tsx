@@ -44,7 +44,7 @@ const StepFour = () => {
           {/* Text Inside Circle */}
           <div className="absolute inset-0 flex flex-col items-center justify-center z-10">
             <h1 className="text-2xl sm:text-4xl font-bold leading-snug tracking-tight">
-              WE'RE <br />
+              WE&apos;RE <br />
               BUILDING <br />
               YOUR <span className="text-white font-extrabold">DNA</span>
             </h1>
@@ -52,8 +52,8 @@ const StepFour = () => {
         </div>
 
         <p className="text-sm text-gray-400 mt-6 max-w-xs sm:max-w-md">
-          Your DNA will be ready in a few minutes. We’ll inform you once it’s
-          ready. You can use the studio meanwhile.
+          Your DNA will be ready in a few minutes. We&apos;ll inform you once
+          it&apos;s ready. You can use the studio meanwhile.
         </p>
       </div>
     </div>
