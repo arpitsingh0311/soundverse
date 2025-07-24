@@ -1,9 +1,10 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
-  appDir: true,
+  reactStrictMode: true,
+  experimental: {
+    serverActions: {}, 
+  },
 };
-
 
 export default nextConfig;
